@@ -32,3 +32,18 @@ A Django REST Framework e-commerce backend with products, categories, orders, st
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+
+
+Better full section:
+
+```markdown
+## API Documentation
+
+This project uses Swagger documentation with `drf-spectacular`.
+
+Run the development server:
+
+```bash
+python manage.py runserver
+http://127.0.0.1:8000/api/docs/
+
